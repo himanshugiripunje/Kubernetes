@@ -1,3 +1,6 @@
+# vol-snapshot.yml
+
+
       apiVersion: snapshot.storage.k8s.io/v1
       kind: VolumeSnapshot
       metadata:
@@ -6,6 +9,10 @@
         volumeSnapshotClassName: vol-snap-class
         source:
           persistentVolumeClaimName: nfs-pvc
+
+
+# vol-snap-class.yml
+          
       apiVersion: snapshot.storage.k8s.io/v1
       kind: VolumeSnapshotClass
       metadata:
@@ -13,6 +20,11 @@
       driver: hostpath.csi.k8s.io
       deletionPolicy: Delete
       parameters:
+
+
+# vol-snap-content.yml
+
+
       apiVersion: snapshot.storage.k8s.io/v1
       kind: VolumeSnapshotContent
       metadata:

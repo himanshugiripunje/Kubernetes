@@ -9,3 +9,14 @@
 - Inject environment variables and secrets
 - Utilize k8s network policies to control cluster egress
 - Discuss k8s cost tracking/charge back strategy
+
+# Redhat Openshift on AWS
+
+- create fully-managed openshift-cluster in a minutes.
+- aws services integration.
+- Easily add or remove compute nodes to match resource demand.
+- deploy cluster accross multiple availability zones.
+- Jointly engineered, operated, and supported by Red Hat and AWS with an integrated support experience and 99.95% uptime SLA.
+
+# Rosa work
+- 

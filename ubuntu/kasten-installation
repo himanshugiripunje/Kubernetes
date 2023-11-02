@@ -113,3 +113,6 @@
   113  k get no
   114  k get po -o wide
   115  k describe po gateway-bc6d6b888-rr4v2
+----------------------------------------------------------------------------------------------------
+
+kubeadm join 172.31.36.36:6443 --token 582j0e.yps85b63vkjexlne --discovery-token-ca-cert-hash sha256:6485b7de41928c0ca06c2f72ab0918b98022a54f7694b9d2012461ec75ab353f
